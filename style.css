@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #C9CEC9;
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
@@ -15,6 +19,11 @@ header {
 }
 
 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
     clear: both;
     background-color:#C9CEC9;
     width: 800px;
@@ -42,4 +51,40 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.menu {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.screenResults {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 50px 150px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2em;
+}
+
+#messageBoard {
+    margin: 10px auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    text-align: center;
+    height: 30px;
+    
+}
+
+.scoreBoard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
 }
