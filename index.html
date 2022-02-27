@@ -5,18 +5,42 @@
     <meta charset="utf-8">
     <meta name="author" content="Mavericks Balitaan">
     <title>Rock, Paper, Scissors</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 
 <body>
     <div class="site-title">Let's Play: </div>
-    <hr>
     <div class="title">Rock, Paper, Scissors Game</div>
-    <div class="container"> 
-     <input type="button" onclick="location.reload()" value="Restart Game" height="30px">
+    <hr>
+    <div class="menu">
+        <input type="button" onclick="location.reload()" value="Restart Game" height="30px">
     </div>
-    
+    <div class="screenResults">
+        <div id="messageBoard"></div>
+        <div class="scoreBoard">
+            <div>
+                <h1 id="yourScore">0</h1>
+                <h1>Your Score:</h1>
+            </div>
+            <div>
+                <h1 id="compScore">0</h1>
+                <h1>Computer Score:</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button id="rockBtn" value="rock">
+            <img src="./img/rock.png" alt="rock" width="250">
+        </button>
+        <button id="paperBtn" value="paper">
+            <img src="./img/paper.png" alt="paper" width="250">
+        </button>
+        <button id="scissorsBtn" value="scissors">
+            <img src="./img/scissors.png" alt="scissors" width="250">
+        </button>
+    </div>
+
 </body>
 
 </html>
