@@ -1,6 +1,6 @@
 # rockpaperscissors
 ## The Odin Project : Rock Paper Scissors
 
-Here is a [Live Demo: ](https://mavericks-db.github.io/rockpaperscissors/)
+[Live Demo: ](https://mavericks-db.github.io/rockpaperscissors/):point_left:
 
-Used images from: https://yvana.org/games/kids/rock-paper-and-scissors
+<!-- Downloaded images from: https://yvana.org/games/kids/rock-paper-and-scissors -->

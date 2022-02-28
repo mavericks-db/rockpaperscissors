@@ -3,10 +3,7 @@ const paperBtn = document.getElementById('paperBtn');
 const scissorsBtn = document.getElementById('scissorsBtn');
 let yourScore = document.getElementById('yourScore');
 let compScore = document.getElementById('compScore');
-
-
 let messageBoard = document.getElementById('messageBoard');
-
 let playerChoice = "";
 let playerScore = 0;
 let computerScore = 0;
@@ -16,22 +13,19 @@ rockBtn.addEventListener('click', () => playerPlay("ROCK"));
 paperBtn.addEventListener('click', () => playerPlay("PAPER"));
 scissorsBtn.addEventListener('click', () => playerPlay("SCISSORS"));
 
-
 function playerPlay(playerChoice) {
-
     let playerSelection = playerChoice;
     let computerSelection = computerPlay();
-
     playRound(computerSelection, playerSelection);
     checkScores();
 }
 
 function checkScores() {
     if (playerScore == 5) {
-        messageBoard.textContent = `YOU WIN! \nFirst to get 5.\nLet's Play Again`;
-        restart();
+        messageBoard.textContent = "You Win!";
+        restart();        
     } else if (computerScore == 5) {
-        messageBoard.textContent = "YOU LOSE! \nLet's Play Again";
+        messageBoard.textContent = "You Lose!";
         restart();
     }
 }
@@ -54,7 +48,7 @@ function playRound(computerSelection, playerSelection) {
         computerScore += 0;
         yourScore.textContent = playerScore;
         compScore.textContent = computerScore;
-        messageBoard.textContent = "We have a tie! Play again.";
+        messageBoard.textContent = "We have a tie!";
 
     } else if (computerSelection == "ROCK" && playerSelection == "PAPER") {
         playerScore += 1;

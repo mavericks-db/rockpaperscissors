@@ -13,17 +13,14 @@
     <div class="site-title">Let's Play!</div>
     <div class="title">Rock, Paper, Scissors Game</div>
     <hr>
-    <div class="menu">
-        <input type="button" onclick="location.reload()" value="Restart Game" height="30px">
-    </div>
     <div class="screenResults">
         <div id="messageBoard"></div>
         <div class="scoreBoard">
-            <div>
+            <div class="you">
                 <h1 id="yourScore">0</h1>
                 <h2>Your Score</h2>
             </div>
-            <div>
+            <div class="comp">
                 <h1 id="compScore">0</h1>
                 <h2>Computer Score</h2>
             </div>
@@ -31,14 +28,23 @@
     </div>
     <div class="container">
         <button id="rockBtn" value="rock">
-            <img src="./img/rock.png" alt="rock" width="250">
+            <img src="./img/rock.png" alt="rock" width="200">
         </button>
         <button id="paperBtn" value="paper">
-            <img src="./img/paper.png" alt="paper" width="250">
+            <img src="./img/paper.png" alt="paper" width="200">
         </button>
         <button id="scissorsBtn" value="scissors">
-            <img src="./img/scissors.png" alt="scissors" width="250">
+            <img src="./img/scissors.png" alt="scissors" width="200">
         </button>
     </div>
+    <div class="menu">
+        <input type="button" onclick="location.reload()" value="Restart Game" height="30px">
+    </div>
+    <footer class="footer">
+        Copyright © 
+        2022
+        <a href="https://github.com/mavericks-db">mavericks-db</a>
+        <img src="./img/github-logo.png" alt="github-logo" width="14">
+    </footer>
 </body>
 </html>
