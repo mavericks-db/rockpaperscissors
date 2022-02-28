@@ -48,7 +48,7 @@ function playRound(computerSelection, playerSelection) {
         computerScore += 0;
         yourScore.textContent = playerScore;
         compScore.textContent = computerScore;
-        messageBoard.textContent = "We have a tie!";
+        messageBoard.textContent = "It's a tie!";
 
     } else if (computerSelection == "ROCK" && playerSelection == "PAPER") {
         playerScore += 1;

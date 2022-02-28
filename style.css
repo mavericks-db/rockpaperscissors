@@ -65,6 +65,7 @@ header {
 
 #messageBoard {
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 0;
     margin-left: auto;
@@ -72,8 +73,8 @@ header {
     margin-bottom: 75px;
     padding: 10px;
     text-align: center;
-    font-size: 1.5em;
-    color: red;
+    font-size: 2em;
+    color: black;
     text-align: center;
     height: 25px;
 }
