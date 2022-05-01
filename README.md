@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/The_Odin_Project-e3b261)
 
-# Sign-up Form
+# Rock-Paper-Scissors
 
 > This is a simple implementation of grade-school classic of "rock paper scissors."
 
