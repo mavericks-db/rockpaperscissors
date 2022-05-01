@@ -79,7 +79,7 @@ Please find the link in the Live Demo section.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mavericks-db/rockpaperscissors/issues.
+Feel free to check the [issues page](https://github.com/mavericks-db/rockpaperscissors/issues).
 
 ## Show your support
 
