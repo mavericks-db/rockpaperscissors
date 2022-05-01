@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c9cec9;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  text-align: right;
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  clear: both;
+  background-color: #c9cec9;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-title {
+  display: block;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.screenResults {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0 300px;
+}
+
+#messageBoard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  height: 25px;
+}
+
+.scoreBoard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+#yourScore,
+#compScore {
+  margin: 0 auto;
+  border-color: black;
+  border-radius: 2em;
+  border-style: dashed;
+  width: 75px;
+}
+
+.footer {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}

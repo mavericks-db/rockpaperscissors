@@ -1,0 +1,33 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "[Live Demo: ](https://mavericks-db.github.io/rockpaperscissors/):point_left:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavericks-db/rockpaperscissors.git"
+  },
+  "author": "Mavericks Balitaan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavericks-db/rockpaperscissors/issues"
+  },
+  "homepage": "https://github.com/mavericks-db/rockpaperscissors#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
